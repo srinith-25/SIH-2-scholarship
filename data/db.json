@@ -1,0 +1,197 @@
+{
+  "users": [
+    {
+      "id": "ST-2026-OD-89211",
+      "fullName": "Ananya Munda",
+      "role": "student",
+      "identifier": "+91 94371 82910",
+      "aadhaar": "XXXX-XXXX-8912",
+      "apaarId": "9281-0492-3810",
+      "tribe": "Munda",
+      "state": "Odisha",
+      "institution": "NIT Rourkela",
+      "registeredAt": "2026-07-12 10:15:00",
+      "lastLogin": "2026-09-27 14:04:38"
+    },
+    {
+      "id": "PAR-2026-OD-0941",
+      "fullName": "Somra Munda",
+      "role": "parent",
+      "identifier": "+91 94371 82999",
+      "aadhaar": "XXXX-XXXX-1904",
+      "tribe": "Munda",
+      "state": "Odisha",
+      "registeredAt": "2026-07-15 11:20:00"
+    },
+    {
+      "id": "INST-NITR-001",
+      "fullName": "Dr. P. K. Mohapatra",
+      "role": "institution",
+      "identifier": "nodal.scholarship@nitrkl.ac.in",
+      "institution": "NIT Rourkela",
+      "state": "Odisha",
+      "registeredAt": "2026-06-01 09:00:00",
+      "lastLogin": "2026-09-27 14:47:50"
+    },
+    {
+      "id": "STA-OD-772",
+      "fullName": "R. K. Tripathy, OAS",
+      "role": "state",
+      "identifier": "dir-tribal.od@gov.in",
+      "state": "Odisha",
+      "registeredAt": "2026-05-15 14:00:00",
+      "lastLogin": "2026-09-27 15:40:32"
+    },
+    {
+      "id": "ADM-MOTA-001",
+      "fullName": "National MoTA Administrator",
+      "role": "admin",
+      "identifier": "admin-scholarships@mota.gov.in",
+      "state": "New Delhi",
+      "registeredAt": "2026-01-01 00:00:00",
+      "lastLogin": "2026-09-27 14:09:15"
+    },
+    {
+      "id": "CSC-OR-882",
+      "fullName": "Bikas Kisan (VLE Kiosk)",
+      "role": "csc",
+      "identifier": "csc.panposh@digitalindia.gov.in",
+      "state": "Odisha",
+      "institution": "CSC Gram Panchayat Panposh",
+      "registeredAt": "2026-08-10 12:00:00"
+    },
+    {
+      "id": "ST-2026-JH-85536",
+      "fullName": "Ramesh Soren",
+      "role": "student",
+      "identifier": "+91 98765 43210",
+      "aadhaar": "XXXX-XXXX-4910",
+      "apaarId": "9281-0492-4285",
+      "tribe": "Santhal",
+      "state": "Jharkhand",
+      "institution": "Government Higher Secondary School",
+      "annualIncome": "Below ₹2,50,000 / year",
+      "registeredAt": "2026-09-27 11:55:51",
+      "lastLogin": "2026-09-27 11:55:51"
+    }
+  ],
+  "loginLogs": [
+    {
+      "id": "LOG-1790523632014",
+      "userId": "STA-OD-772",
+      "fullName": "R. K. Tripathy, OAS",
+      "role": "state",
+      "identifier": "dir-tribal.od@gov.in",
+      "loginMethod": "State Parichay SSO",
+      "ipAddress": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "location": "Bhubaneswar, Odisha",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 15:40:32"
+    },
+    {
+      "id": "LOG-1790520673596",
+      "userId": "STA-OD-772",
+      "fullName": "R. K. Tripathy, OAS",
+      "role": "state",
+      "identifier": "dir-tribal.od@gov.in",
+      "loginMethod": "State Parichay SSO",
+      "ipAddress": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "location": "Bhubaneswar, Odisha",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 14:51:13"
+    },
+    {
+      "id": "LOG-1790520470418",
+      "userId": "INST-NITR-001",
+      "fullName": "Dr. P. K. Mohapatra",
+      "role": "institution",
+      "identifier": "nodal.scholarship@nitrkl.ac.in",
+      "loginMethod": "Institution AISHE SSO",
+      "ipAddress": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "location": "NIT Rourkela, Odisha",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 14:47:50"
+    },
+    {
+      "id": "LOG-1790518155417",
+      "userId": "ADM-MOTA-001",
+      "fullName": "National MoTA Administrator",
+      "role": "admin",
+      "identifier": "admin-scholarships@mota.gov.in",
+      "loginMethod": "Ministry Central SSO",
+      "ipAddress": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "location": "Shastri Bhawan, New Delhi",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 14:09:15"
+    },
+    {
+      "id": "LOG-1790518006269",
+      "userId": "INST-NITR-001",
+      "fullName": "Dr. P. K. Mohapatra",
+      "role": "institution",
+      "identifier": "nodal.scholarship@nitrkl.ac.in",
+      "loginMethod": "Institution AISHE SSO",
+      "ipAddress": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "location": "NIT Rourkela, Odisha",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 14:06:46"
+    },
+    {
+      "id": "LOG-1790517878290",
+      "userId": "ST-2026-OD-89211",
+      "fullName": "Ananya Munda",
+      "role": "student",
+      "identifier": "XXXX-XXXX-8912",
+      "loginMethod": "Aadhaar OTP",
+      "ipAddress": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "location": "Sundargarh, Odisha, India",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 14:04:38"
+    },
+    {
+      "id": "LOG-1790510151489",
+      "userId": "ST-2026-JH-85536",
+      "fullName": "Ramesh Soren",
+      "role": "student",
+      "identifier": "+91 98765 43210",
+      "loginMethod": "New Passport Registration",
+      "ipAddress": "::1",
+      "device": "Web Client",
+      "location": "Jharkhand, India",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 11:55:51"
+    },
+    {
+      "id": "LOG-1790509658276",
+      "userId": "ST-2026-OD-89211",
+      "fullName": "Ananya Munda",
+      "role": "student",
+      "identifier": "+91 94371 82910",
+      "loginMethod": "Mobile OTP",
+      "ipAddress": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "location": "Sundargarh, Odisha, India",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 11:47:38"
+    },
+    {
+      "id": "LOG-20260927-01",
+      "userId": "ST-2026-OD-89211",
+      "fullName": "Ananya Munda",
+      "role": "student",
+      "identifier": "XXXX-XXXX-8912",
+      "loginMethod": "Aadhaar OTP",
+      "ipAddress": "103.24.120.45",
+      "device": "Windows 11 / Chrome 129",
+      "location": "Sundargarh, Odisha, India",
+      "status": "SUCCESS",
+      "timestamp": "2026-09-27 14:48:06"
+    }
+  ]
+}

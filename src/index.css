@@ -1,0 +1,317 @@
+/* Unified Scholarship Platform for Tribal Students - Government Digital Design System */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #0f3c68;
+  --primary-hover: #0a2540;
+  --primary-light: #eff6ff;
+  --primary-subtle: #dbeafe;
+  
+  --secondary: #0f766e;
+  --secondary-hover: #115e59;
+  --secondary-light: #f0fdfa;
+  
+  --saffron: #d97706;
+  --saffron-hover: #b45309;
+  --saffron-light: #fffbeb;
+  --saffron-border: #fde68a;
+  
+  --success: #15803d;
+  --success-light: #f0fdf4;
+  --success-border: #bbf7d0;
+  
+  --warning: #b45309;
+  --warning-light: #fffbeb;
+  --warning-border: #fde68a;
+  
+  --danger: #b91c1c;
+  --danger-light: #fef2f2;
+  --danger-border: #fecaca;
+  
+  --bg-main: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-muted: #f1f5f9;
+  --bg-subtle: #f8fafc;
+  
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-light: #64748b;
+  
+  --border-color: #e2e8f0;
+  --border-strong: #cbd5e1;
+  
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  
+  --font-base: 'Inter', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-base: 15px;
+}
+
+/* High Contrast Accessibility Mode */
+[data-contrast="high"] {
+  --primary: #002b5c;
+  --primary-light: #ffffb3;
+  --secondary: #004d40;
+  --bg-main: #000000;
+  --bg-card: #121212;
+  --bg-muted: #242424;
+  --text-main: #ffffff;
+  --text-muted: #f1f5f9;
+  --text-light: #cbd5e1;
+  --border-color: #ffffff;
+  --border-strong: #ffffff;
+  --success: #22c55e;
+  --success-light: #052e16;
+  --warning: #facc15;
+  --warning-light: #422006;
+  --danger: #ef4444;
+  --danger-light: #450a0a;
+}
+
+/* Large Font Scale Mode */
+[data-fontsize="large"] {
+  --font-size-base: 17px;
+}
+[data-fontsize="xlarge"] {
+  --font-size-base: 19px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  color: var(--text-main);
+  background-color: var(--bg-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: all 0.15s ease;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Global Container */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  line-height: 1.2;
+}
+.badge-green {
+  background-color: var(--success-light);
+  color: var(--success);
+  border: 1px solid var(--success-border);
+}
+.badge-amber {
+  background-color: var(--warning-light);
+  color: var(--warning);
+  border: 1px solid var(--warning-border);
+}
+.badge-blue {
+  background-color: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary-subtle);
+}
+.badge-red {
+  background-color: var(--danger-light);
+  color: var(--danger);
+  border: 1px solid var(--danger-border);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 1px 2px rgba(15, 60, 104, 0.2);
+}
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(15, 60, 104, 0.25);
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: var(--text-main);
+  border: 1px solid var(--border-strong);
+  padding: 9px 18px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-secondary:hover {
+  background-color: var(--bg-muted);
+  border-color: #94a3b8;
+}
+
+.btn-teal {
+  background-color: var(--secondary);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-teal:hover {
+  background-color: var(--secondary-hover);
+  transform: translateY(-1px);
+}
+
+/* Cards */
+.gov-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+.gov-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: #cbd5e1;
+}
+
+/* Navigation Tabs Header */
+.portal-nav-tabs {
+  display: flex;
+  gap: 4px;
+  background-color: #ffffff;
+  border-bottom: 2px solid var(--border-color);
+  padding: 0 24px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.portal-tab-btn {
+  padding: 14px 18px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-bottom: 3px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.15s ease;
+}
+.portal-tab-btn:hover {
+  color: var(--primary);
+  background-color: var(--bg-muted);
+}
+.portal-tab-btn.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  background-color: var(--primary-light);
+}
+
+/* Floating JAGO Docked Button */
+.floating-jago-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 90;
+  background: linear-gradient(135deg, #0f3c68 0%, #0f766e 100%);
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 12px 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 10px 25px rgba(15, 60, 104, 0.4);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.92rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.2s ease;
+}
+.floating-jago-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 14px 30px rgba(15, 60, 104, 0.5);
+}
+
+/* Pulse animation */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.04); }
+}
+.pulse-indicator {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+/* Assisted Mode Styles */
+.assisted-mode-active {
+  font-size: 1.15rem;
+}
+.assisted-mode-active button {
+  min-height: 52px;
+  font-size: 1.1rem;
+}
